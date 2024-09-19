@@ -7,7 +7,11 @@
 
 ## Indice
 
+<div align="center">
+
 [Projeto](#-Projeto) | [Features](#-Features) | [Demonstração](#-Demonstração) | [Tecnologias](#-Tecnologias) | [Licença](#-licença)
+</div>
+
  
 ### `Projeto`
 
@@ -41,5 +45,4 @@ Todos direitos são reservados a Netflix e ao The Movie Database.
 ### `Licença`
 
 Esse projeto está sob a [LICENSE](https://www.themoviedb.org/api-terms-of-use) MIT.
-
 
