@@ -9,7 +9,7 @@
 
 <div align="center">
 
-[Projeto](#-Projeto) | [Features](#-Features) | [Demonstração](#-Demonstração) | [Tecnologias](#-Tecnologias) | [Licença](#-licença)
+[Projeto](#projeto) | [Features](#features) | [Demonstração](#demonstração) | [Tecnologias](#tecnologias) | [Licença](#licença)
 </div>
 
  
