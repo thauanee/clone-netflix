@@ -18,7 +18,7 @@ const basicFetch = async (endpoint) => {
     return json;
 }
 
-export default {
+export const tmdb = {
     getHomeList: async () => {
         return [
             {
@@ -83,5 +83,4 @@ getMovieInfo: async (movieId, type) => {
     }
 
 }
-
 

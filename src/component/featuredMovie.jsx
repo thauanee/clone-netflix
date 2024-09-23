@@ -1,7 +1,7 @@
 import React from 'react';
 import './featuredMovie.css';
 
-export default ({item}) => {
+export default function FeaturedMovie({item}) {
     console.log(item);
 
     let firstDate = new Date(item.first_air_date);
@@ -31,7 +31,7 @@ export default ({item}) => {
                     </div>  
                         <div className='featured--description'>{description}</div>
                         <div className='featured--buttons'>
-                            <a href={`/watch/${item.id}`} className='featured--watchbutton'><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-play"><polygon points="6 3 20 12 6 21 6 3"/></svg> Assistir</a>
+                            <a href={`/watch/${item.id}`} className='featured--watchbutton'><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-play"><polygon points="6 3 20 12 6 21 6 3"/></svg> Assistir</a>
                             <a href={`/list/add/${item.id}`} className='featured--mylistbutton'>+ Minha Lista</a>
                         </div>
                         <div className='featured--genres'> <strong>Gêneros: </strong> {genres.join(', ')}</div>
